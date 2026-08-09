@@ -8,7 +8,7 @@ J'espère ainsi grâce à mon excellente vision terrain et à une forte capacit�
 EN: With over 12 years of solid experience in coordinating and monitoring operations within highly demanding environnements, I have successfully led numerous internal process optimization and improvement projects throughout my career thanks to my Excel & VBA skills.
 Driven by this experience, I recently decided to follow a challenging training in Data Analytics. Combining strong on-the-ground operational insight with a proven ability to automate and analyze data for strategic decision-making, I am now eager to successfully transition into this new field.
 
-**Compétences clés :** Python (pandas, numpy, matplotlib/seaborn) · SQL · Google Sheets · Jupyter/Colab · Git/GitHub · PowerBI · BigQuery · dbt · Machine Learning
+**Compétences clés :** Python (pandas, numpy, matplotlib/seaborn) · SQL · Google Sheets · Jupyter/Colab · Git/GitHub · PowerBI · BigQuery · dbt · Machine Learning · Microsoft Excel · Visual Basic
 
 📫 [LinkedIn](www.linkedin.com/in/valentin-rouquier-286833347) · [Email](mailto:val.rouquier@gmail.com) · [CV](https://drive.google.com/file/d/1fZ_dCPdEkGS_3A1Pw_VlYVo4YYlX0Mer/view?usp=sharing)
 
