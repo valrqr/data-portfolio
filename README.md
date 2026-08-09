@@ -18,7 +18,7 @@ Driven by this experience, I recently decided to follow a challenging training i
 
 Chaque projet présenté ici vise à mettre en avant mes compétences acquises en data suite à ma formation auprès de La Capsule mais également celles sur Excel à travers la présentation de certains projets menés dans le cadre de mes précédentes fonctions chez Intercruises et Aéroports de la Côte d'Azur.
 
-### ✈️ [Analyse du trafic aérien et de la charge piste en Europe]
+### ✈️ [Analyse du trafic aérien et de la charge piste en Europe] - Projet Perso
 
 Exploration et nettoyage d'un dataset des données trafic 2025 d'aéroports européens, avec construction de tables de dimension et gestion de la qualité des données (valeurs manquantes, doublons, cohérence des catégories).
 
@@ -28,15 +28,25 @@ Exploration et nettoyage d'un dataset des données trafic 2025 d'aéroports euro
 
 NB: en cours - transformation des données à suivre
 
-### [à venir]
+### [Etude des facteurs de réadmission chez la patientèle diabétique aux US 1999-2008] - Projet de fin de formation
 
+à venir
 
 **Techniques utilisées :** [...]
 **Outils :** [...]
 🔗 [Voir le projet]()
 
-### [à venir]
+### [Outil d'aide à la négociation] - Outil d'aide à la négociation des tarifs autocaristes et gestion des stats (Intercruises)
 
+à venir
+
+**Techniques utilisées :** [...]
+**Outils :** [...]
+🔗 [Voir le projet]()
+
+### [Indicateurs.xlsm] - Outil de gestion de données et de reporting (ACA)
+
+à venir
 
 **Techniques utilisées :** [...]
 **Outils :** [...]
@@ -48,9 +58,9 @@ NB: en cours - transformation des données à suivre
 
 | Catégorie | Outils |
 |---|---|
-| Langages | Python, SQL |
+| Langages | Python, SQL,VBA |
 | Librairies | pandas, numpy, matplotlib, seaborn |
-| Environnements | Jupyter, Google Colab |
+| Environnements | Jupyter, Google Colab, Excel |
 | Autres | Git, GitHub, Google Sheets |
 
 ---
