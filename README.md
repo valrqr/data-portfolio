@@ -68,20 +68,21 @@ NB: en cours - transformation des données à suivre
 ## 📌 Structure du repo
 
 ```
-├── Formation La Capsule
+├── Data - Portfolio formation
     ├── Hackaton_Final_ML
     ├── README.md
     └── ...
-│   ├── Projet_fin_de_formation
+    ├── Projet_fin_de_formation
     ├── README.md
     └── ...
-├── Projet Solo-1-trafic25/
-    ├── README.md
-    ├── notebook_exploration_et_nettoyage.ipynb
-    └── data/
-├── ...
-    └── ...
-├── Excel_&_VBA
+├── Data - Portfolio perso
+    ├── Projet Solo-1-trafic25/
+        ├── README.md
+        ├── notebook_exploration_et_nettoyage.ipynb
+        └── data/
+    ├── ...
+        └── ...
+├── Excel_&_VBA - Portfolio pro
   ├──Indicateurs/ (en cours de MAJ)
     ├── README.md              
     ├── src/
