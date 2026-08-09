@@ -68,11 +68,18 @@ NB: en cours - transformation des données à suivre
 ## 📌 Structure du repo
 
 ```
-├── projet-1-trafic25/
+├── Formation La Capsule
+│   ├── Hackaton_Final_ML
+│     ├── README.md
+│     └── ...
+│   ├── Projet_fin_de_formation
+│     ├── README.md
+│     └── ...
+├── Projet Solo-1-trafic25/
 │   ├── README.md
 │   ├── notebook_exploration_et_nettoyage.ipynb
 │   └── data/
-├── projet-2/
+├── ...
 │   └── ...
 └── README.md (ce fichier)
 ```
