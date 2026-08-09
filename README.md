@@ -16,7 +16,7 @@ Driven by this experience, I recently decided to follow a challenging training i
 
 ## 📁 Projets
 
-Chaque projet ci-dessous suit une même démarche : exploration → nettoyage → transformation → analyse, avec une documentation détaillée dans le README de chaque dossier.
+Chaque projet présenté ici vise à mettre en avant mes compétences acquises en data suite à ma formation auprès de La Capsule mais également celles sur Excel à travers la présentation de certains projets menés dans le cadre de mes précédentes fonctions chez Intercruises et Aéroports de la Côte d'Azur.
 
 ### ✈️ [Analyse du trafic aérien et de la charge piste en Europe]
 
