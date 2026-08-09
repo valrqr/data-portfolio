@@ -69,19 +69,29 @@ NB: en cours - transformation des données à suivre
 
 ```
 ├── Formation La Capsule
-│   ├── Hackaton_Final_ML
-│     ├── README.md
-│     └── ...
+    ├── Hackaton_Final_ML
+    ├── README.md
+    └── ...
 │   ├── Projet_fin_de_formation
-│     ├── README.md
-│     └── ...
+    ├── README.md
+    └── ...
 ├── Projet Solo-1-trafic25/
-│   ├── README.md
-│   ├── notebook_exploration_et_nettoyage.ipynb
-│   └── data/
+    ├── README.md
+    ├── notebook_exploration_et_nettoyage.ipynb
+    └── data/
 ├── ...
-│   └── ...
-└── README.md (ce fichier)
+    └── ...
+├── Excel_&_VBA
+  ├──Indicateurs/ (en cours de MAJ)
+    ├── README.md              
+    ├── src/
+    │   ├── forms/             
+    │   ├── modules/           
+    │   └── _INDEX.txt
+    ├── docs/
+    │   ├── screenshots/       
+    │   └── architecture.md    
+└── README.md
 ```
 
 ---
