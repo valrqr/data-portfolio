@@ -30,10 +30,10 @@ NB: en cours - transformation des données à suivre
 
 ### [Etude des facteurs de réadmission chez la patientèle diabétique aux US 1999-2008] - Projet de fin de formation
 
-à venir
+MAJ en cours
 
 **Techniques utilisées :** [...]
-**Outils :** [...]
+**Outils :** Google Colab, Google Sheets, Google BigQuery, Airbyte, Airflow, dbt, Power BI
 🔗 [Voir le projet]()
 
 ### [Outil d'aide à la négociation] - Outil d'aide à la négociation des tarifs autocaristes et gestion des stats (Intercruises)
