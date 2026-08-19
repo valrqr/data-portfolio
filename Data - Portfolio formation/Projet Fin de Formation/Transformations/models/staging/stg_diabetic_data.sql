@@ -74,24 +74,7 @@ renamed as (
         {% for col, alias in colonnes_texte %}
         {{ normalisation_outcasts(col) }} as {{ alias }},
         {% endfor %}
-
-        --transformations/traitement des valeurs nulles, ?, etc...
---- cas ethnie : si ? ou plusieurs ethnies différentes enregistrées pour un même patient
-    case
-        when count(distinct race) over (partition by patient_nbr) > 1 then '?'
-        else race
-    end as ethnie,
-
-
---- cas identique pour le genre, si deux genres connus pour un même patient 
-    case
-        when count(distinct gender) over (partition by patient_nbr) > 1 then '?'
-        else gender
-    end as genre
-
-    from source
 )
-
 
 
 

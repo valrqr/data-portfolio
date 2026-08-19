@@ -1,4 +1,4 @@
--- models/intermediate/int_diabetic_data.sql
+ -- models/intermediate/int_diabetic_data.sql
 
 with staging as (
 
@@ -15,9 +15,26 @@ specialites as (
 enriched as (
 
     select
-        staging.* except (insulin, specialite_medecin),
+        staging.* except (insulin, specialite_medecin, race, gender),
 
         specialites.specialite_id,
+
+    --transformations/traitement des valeurs nulles, ?, etc...
+        --- cas ethnie : si ? ou plusieurs ethnies différentes enregistrées pour un même patient
+         case
+            when count(distinct race) over (partition by patient_nbr) > 1 then '?'
+            else race
+        end as ethnie,
+
+
+        --- cas identique pour le genre, si deux genres connus pour un même patient 
+        case
+            when count(distinct gender) over (partition by patient_nbr) > 1 then '?'
+            else gender
+        end as genre
+
+        from source
+
 
         --traduction des valeurs de la colonne insulin
         case
@@ -27,7 +44,7 @@ enriched as (
             when insulin = 'No' then 'Non'
         end as insulin,
 
-        -- création de la colonne n_changement_traitement_diabete qui va compter les changements de traitements indiqués par Up et Down dans les colonnes médicaments
+        -- création de la colonne n_changement_posologie qui va compter les changements de traitements indiqués par Up et Down dans les colonnes médicaments
         (
             (case when metformin in ('Up','Down') then 1 else 0 end)
             + (case when repaglinide in ('Up', 'Down') then 1 else 0 end)
@@ -51,7 +68,7 @@ enriched as (
             + (case when glimepiride_pioglitazone in ('Up', 'Down') then 1 else 0 end)
             + (case when metformin_rosiglitazone in ('Up', 'Down') then 1 else 0 end)
             + (case when metformin_pioglitazone in ('Up', 'Down') then 1 else 0 end)
-        ) as n_changement_traitement_diabete,
+        ) as n_changement_posologie,
 
         -- création de la colonne readmis à partir du contenu de la colonne readmitted
         --- si on a la valeur <30 dans readmitted, readmis sera True, sinon False

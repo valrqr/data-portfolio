@@ -19,7 +19,7 @@ select
     n_visite_urgence,
     n_diagnostic,
     insulin,
-    n_changement_traitement_diabete,
+    n_changement_posologie,
     readmis
 
 from {{ ref('int_diabetic_data') }}
