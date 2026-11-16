@@ -20,7 +20,7 @@ ADMIN.Hide
 End Sub
 
 Private Sub CB_ADMIN_Click()
-If TB_ADMIN.Text = "MAFALDA" Then
+If TB_ADMIN.Text = "********" Then
 
 Sheets("SAISIE").Unprotect
 
@@ -60,7 +60,7 @@ End If
 End Sub
 Private Sub CB_VRU_Click()
 
-If TB_VRU.Text = "MAFALDA" Then
+If TB_VRU.Text = "********" Then
 
 Sheets("SAISIE").Protect
 

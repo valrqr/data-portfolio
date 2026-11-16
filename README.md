@@ -40,10 +40,15 @@ NB: en cours - transformation des données à suivre
 
 ### [Etude des facteurs de réadmission chez la patientèle diabétique aux US 1999-2008] - Projet de fin de formation
 
-MAJ en cours
+Projet réalisé en binôme à partir des données Health Facts (130 hôpitaux américains, 1999-2008) : prédire la réadmission à moins de 30 jours des patients diabétiques et identifier des leviers d'action pour l'éviter.
 
-**Techniques utilisées :** [...]
-**Outils :** Google Colab, Google Sheets, Google BigQuery, Airbyte, Airflow, dbt, Power BI
+- **Pipeline de données complet** : ingestion avec Airbyte, modélisation dbt sur BigQuery (staging → intermediate → marts en schéma en étoile, tests de qualité), orchestration Airflow sous Docker
+- **Machine Learning** : segmentation KMeans, régression logistique et XGBoost (AUC ≈ 0,66). Les trois approches convergent : l'historique d'hospitalisations antérieures est le premier facteur de risque. Un groupe à haut risque de 6 % des patients se réadmet à 25 %, contre 11 % en moyenne
+- **Restitution pour un public non technique** : tableau de bord Power BI (matrice de confusion en langage métier, scores du modèle, calculateur de groupe à risque avec estimation des hospitalisations évitées)
+- **Recommandations** : suivi renforcé à deux niveaux selon le risque, éviter les changements de traitement inutiles et renforcer l'éducation thérapeutique des patients
+
+**Techniques utilisées :** modélisation en étoile, tests dbt, prévention des fuites de données au niveau patient (GroupShuffleSplit), gestion du déséquilibre de classes, clustering, classification supervisée, sélection de variables (9 variables sur 115 pour une performance comparable), mesures DAX
+**Outils :** Google Colab, Google Sheets, Google BigQuery, Airbyte, Airflow, dbt, Docker, Python (pandas, scikit-learn, XGBoost), Power BI
 🔗 [Voir le projet]()
 
 ### [Outil d'aide à la négociation] - Outil d'aide à la négociation des tarifs autocaristes et gestion des stats (Intercruises)
@@ -54,13 +59,13 @@ MAJ en cours
 **Outils :** [...]
 🔗 [Voir le projet]()
 
-### [Indicateurs.xlsm] - Outil de gestion de données et de reporting (ACA)
+### 🛫 [Indicateurs.xlsm] - Outil de gestion de données et de reporting (ACA)
 
-à venir
+Outil métier développé pour l'équipe des opérations aéroportuaires : saisie quotidienne guidée de l'activité côté piste (inspections, péril animalier, FOD, déversements, convoyages et tractages, fret, météo, facturations), surveillance des escales, puis archivage et export automatiques des données pour les rapports PowerPoint mensuels, saisonniers (saisons IATA) et annuels. Il compte 25 formulaires et environ 10 600 lignes de VBA.
 
-**Techniques utilisées :** [...]
-**Outils :** [...]
-🔗 [Voir le projet]()
+**Techniques utilisées :** contrôles de qualité des données à la saisie, Excel utilisé comme base de données (feuilles techniques masquées, plages nommées), automatisation des clôtures de période (archivage mensuel, remise à zéro), exports figés en .xlsx pour le reporting mensuel / saisonnier IATA / annuel, gestion des accès
+**Outils :** Microsoft Excel, VBA (UserForms), PowerPoint, olevba pour l'extraction du code
+🔗 [Voir le projet](https://github.com/valrqr/data-portfolio/tree/main/Excel_%26_VBA%20-%20Portfolio%20pro/Indicateurs)
 
 ---
 
@@ -95,15 +100,14 @@ MAJ en cours
     ├── ...
         └── ...
 ├── Excel_&_VBA - Portfolio pro
-  ├──Indicateurs/ (en cours de MAJ)
-    ├── README.md              
+  ├── Indicateurs/
+    ├── README.md
     ├── src/
-    │   ├── forms/             
-    │   ├── modules/           
+    │   ├── forms/
+    │   ├── modules/
     │   └── _INDEX.txt
-    ├── docs/
-    │   ├── screenshots/       
-    │   └── architecture.md    
+    └── docs/
+        └── screenshots/
 └── README.md
 ```
 

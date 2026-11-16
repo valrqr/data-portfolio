@@ -27,7 +27,7 @@ ADMIN.Hide
 End Sub
 
 Private Sub CB_ADMIN_Click()
-If TB_ADMIN.Text = "MAFALDA" Then
+If TB_ADMIN.Text = "********" Then
 
 Sheets("SAISIE").Unprotect
 
@@ -67,7 +67,7 @@ End If
 End Sub
 Private Sub CB_VRU_Click()
 
-If TB_VRU.Text = "MAFALDA" Then
+If TB_VRU.Text = "********" Then
 
 Sheets("SAISIE").Protect
 
@@ -9569,7 +9569,7 @@ Dim STAN_NAME
 
 STAN_NAME = Range("STAN_NAME").Value
 
-ActiveWorkbook.SaveAs Filename:="X:\Anca\#-Groupe\A_DETP_OP\0. EQUIPE\Indicateurs\2025\Logs Données Mensuelles\" & STAN_NAME & ".xlsx"
+ActiveWorkbook.SaveAs Filename:="X:\...\Indicateurs\2025\Logs Données Mensuelles\" & STAN_NAME & ".xlsx"
 
 ActiveWorkbook.Close
 
@@ -9673,7 +9673,7 @@ Dim TAN_NAME
 
 TAN_NAME = Range("TAN_NAME").Value
 
-ActiveWorkbook.SaveAs Filename:="X:\Anca\#-Groupe\A_DETP_OP\0. EQUIPE\Indicateurs\2025\Logs Données Mensuelles\" & TAN_NAME & ".xlsx"
+ActiveWorkbook.SaveAs Filename:="X:\...\Indicateurs\2025\Logs Données Mensuelles\" & TAN_NAME & ".xlsx"
 
 ActiveWorkbook.Close
 
@@ -9750,7 +9750,7 @@ Dim LOG_NAME
 
 LOG_NAME = Range("LOG_NAME").Value
 
-ActiveWorkbook.SaveAs Filename:="X:\Anca\#-Groupe\A_DETP_OP\0. EQUIPE\Indicateurs\2025\Logs Données Mensuelles\" & LOG_NAME & ".xlsx"
+ActiveWorkbook.SaveAs Filename:="X:\...\Indicateurs\2025\Logs Données Mensuelles\" & LOG_NAME & ".xlsx"
 
 ActiveWorkbook.Close
 
@@ -9775,7 +9775,7 @@ Dim MLG_NAME
 
 MLG_NAME = Range("MLG_NAME").Value
 
-ActiveWorkbook.SaveAs Filename:="X:\Anca\#-Groupe\A_DETP_OP\0. EQUIPE\Indicateurs\2025\Logs Logistique\" & MLG_NAME & ".xlsx"
+ActiveWorkbook.SaveAs Filename:="X:\...\Indicateurs\2025\Logs Logistique\" & MLG_NAME & ".xlsx"
 
 ActiveWorkbook.Close
 
