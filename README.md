@@ -8,15 +8,25 @@ J'espère ainsi grâce à mon excellente vision terrain et à une forte capacit�
 EN: With over 12 years of solid experience in coordinating and monitoring operations within highly demanding environnements, I have successfully led numerous internal process optimization and improvement projects throughout my career thanks to my Excel & VBA skills.
 Driven by this experience, I recently decided to follow a challenging training in Data Analytics. Combining strong on-the-ground operational insight with a proven ability to automate and analyze data for strategic decision-making, I am now eager to successfully transition into this new field.
 
-**Compétences clés :** Python (pandas, numpy, matplotlib/seaborn) · SQL · Google Sheets · Jupyter/Colab · Git/GitHub · PowerBI · BigQuery · dbt · Machine Learning · Microsoft Excel · Visual Basic
+**Compétences clés :** Python (pandas, numpy, matplotlib/seaborn) · SQL · Google Sheets · Jupyter/Colab · Git/GitHub · PowerBI · BigQuery · dbt · Machine Learning · n8n · FastAPI · Docker · Microsoft Excel · Visual Basic
 
-📫 [LinkedIn](www.linkedin.com/in/valentin-rouquier-286833347) · [Email](mailto:val.rouquier@gmail.com) · [CV](https://drive.google.com/file/d/1fZ_dCPdEkGS_3A1Pw_VlYVo4YYlX0Mer/view?usp=sharing)
+📫 [LinkedIn](https://www.linkedin.com/in/valentin-rouquier-286833347) · [Email](mailto:val.rouquier@gmail.com) · [CV](https://drive.google.com/file/d/1fZ_dCPdEkGS_3A1Pw_VlYVo4YYlX0Mer/view?usp=sharing)
 
 ---
 
 ## 📁 Projets
 
 Chaque projet présenté ici vise à mettre en avant mes compétences acquises en data suite à ma formation auprès de La Capsule mais également celles sur Excel à travers la présentation de certains projets menés dans le cadre de mes précédentes fonctions chez Intercruises et Aéroports de la Côte d'Azur.
+
+### 🏢 [KoPro – Assistant open source pour syndics bénévoles de copropriété] - Projet Perso
+
+Outil qui permet à un copropriétaire bénévole de gérer une copropriété de moins de 50 lots, sur un principe simple : l'agent prépare, le syndic valide et signe. Première brique livrée : calcul des appels de fonds au centime près selon les tantièmes de chaque lot, génération des avis en PDF, puis envoi automatisé après validation du syndic par mail.
+
+**Techniques utilisées :** modélisation de données (lots, tantièmes, clés de répartition), contrôles de cohérence, répartition au centime par la méthode du plus fort reste, API REST sécurisée, conteneurisation, workflow avec validation humaine
+**Outils :** Python, FastAPI, ReportLab, n8n, Docker Compose, YAML
+🔗 [Voir le projet](https://github.com/valrqr/kopro)
+
+NB: en cours - échéancier automatique et relances des impayés à suivre
 
 ### ✈️ [Analyse du trafic aérien et de la charge piste en Europe] - Projet Perso
 
@@ -58,9 +68,10 @@ MAJ en cours
 
 | Catégorie | Outils |
 |---|---|
-| Langages | Python, SQL,VBA |
-| Librairies | pandas, numpy, matplotlib, seaborn |
-| Environnements | Jupyter, Google Colab, Excel |
+| Langages | Python, SQL, VBA |
+| Librairies | pandas, numpy, matplotlib, seaborn, FastAPI, ReportLab |
+| Environnements | Jupyter, Google Colab, Excel, Docker |
+| Automatisation | n8n |
 | Autres | Git, GitHub, Google Sheets |
 
 ---
@@ -76,6 +87,7 @@ MAJ en cours
     ├── README.md
     └── ...
 ├── Data - Portfolio perso
+    ├── KoPro/  → dépôt dédié : github.com/valrqr/kopro
     ├── Projet Solo-1-trafic25/
         ├── README.md
         ├── notebook_exploration_et_nettoyage.ipynb
