@@ -10,7 +10,7 @@ Driven by this experience, I recently decided to follow a challenging training i
 
 **Compétences clés :** Python (pandas, numpy, matplotlib/seaborn) · SQL · Google Sheets · Jupyter/Colab · Git/GitHub · PowerBI · BigQuery · dbt · Machine Learning · n8n · FastAPI · Docker · Microsoft Excel · Visual Basic
 
-📫 [LinkedIn](https://www.linkedin.com/in/valentin-rouquier-286833347) · [Email](mailto:val.rouquier@gmail.com) · [CV](https://drive.google.com/file/d/1fZ_dCPdEkGS_3A1Pw_VlYVo4YYlX0Mer/view?usp=sharing)
+📫 [LinkedIn](https://www.linkedin.com/in/valentin-rouquier-286833347) · [Email](mailto:val.rouquier@gmail.com) · [CV](https://drive.google.com/file/d/1-GrR1cVQz7kPAXfyNl9JleDdZTI1zn7y/view?usp=sharing)
 
 ---
 
