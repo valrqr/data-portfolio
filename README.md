@@ -18,6 +18,14 @@ Driven by this experience, I recently decided to follow a challenging training i
 
 Chaque projet présenté ici vise à mettre en avant mes compétences acquises en data suite à ma formation auprès de La Capsule mais également celles sur Excel à travers la présentation de certains projets menés dans le cadre de mes précédentes fonctions chez Intercruises et Aéroports de la Côte d'Azur.
 
+### ✈️ [MAINTAIN – Les paliers en descente vers Nice Côte d'Azur] - Projet Perso
+
+Combien de carburant coûtent les paliers imposés pendant la descente vers Nice ? À partir de données ADS-B publiques collectées pendant 3 jours (OpenSky Network), le projet reconstruit 385 arrivées, détecte 427 paliers et estime le carburant et le CO₂ en jeu. Principaux constats : 63 % des paliers se font entre 3 000 et 4 500 ft, juste avant l'axe final ; ils concernent 1 arrivée sur 3 aux heures calmes, mais 3 sur 4 dès 4 arrivées par heure ; et 35 % des paliers concentrent 80 % du carburant en jeu.
+
+**Techniques utilisées :** collecte d'API avec authentification OAuth2 et gestion des quotas, découpage de trajectoires en vols, détection d'événements sur séries temporelles, modèle de consommation de carburant, statistiques circulaires (dispersion des trajectoires), tests unitaires sur trajectoires synthétiques, modélisation dbt avec tests, cartographie
+**Outils :** Python (pandas, matplotlib, OpenAP, pytest), API OpenSky, Google BigQuery, dbt
+🔗 [Voir le projet](https://github.com/valrqr/maintain-4000)
+
 ### 🏢 [KoPro – Assistant open source pour syndics bénévoles de copropriété] - Projet Perso
 
 Outil qui permet à un copropriétaire bénévole de gérer une copropriété de moins de 50 lots, sur un principe simple : l'agent prépare, le syndic valide et signe. Première brique livrée : calcul des appels de fonds au centime près selon les tantièmes de chaque lot, génération des avis en PDF, puis envoi automatisé après validation du syndic par mail.
@@ -74,7 +82,8 @@ Outil métier développé pour l'équipe des opérations aéroportuaires : saisi
 | Catégorie | Outils |
 |---|---|
 | Langages | Python, SQL, VBA |
-| Librairies | pandas, numpy, matplotlib, seaborn, FastAPI, ReportLab |
+| Librairies | pandas, numpy, matplotlib, seaborn, OpenAP, pytest, FastAPI, ReportLab |
+| Données & BI | Google BigQuery, dbt, Power BI |
 | Environnements | Jupyter, Google Colab, Excel, Docker |
 | Automatisation | n8n |
 | Autres | Git, GitHub, Google Sheets |
@@ -93,6 +102,7 @@ Outil métier développé pour l'équipe des opérations aéroportuaires : saisi
     └── ...
 ├── Data - Portfolio perso
     ├── KoPro/  → dépôt dédié : github.com/valrqr/kopro
+    ├── eco-flying-nice/  → dépôt dédié : github.com/valrqr/maintain-4000
     ├── Projet Solo-1-trafic25/
         ├── README.md
         ├── notebook_exploration_et_nettoyage.ipynb
