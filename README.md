@@ -26,13 +26,13 @@ Combien de carburant coûtent les paliers imposés pendant la descente vers Nice
 **Outils :** Python (pandas, matplotlib, OpenAP, pytest), API OpenSky, Google BigQuery, dbt
 🔗 [Voir le projet](https://github.com/valrqr/maintain-4000)
 
-### 🏢 [KoPro – Assistant open source pour syndics bénévoles de copropriété] - Projet Perso
+### 🏢 [Mitoyen – Assistant open source pour syndics bénévoles de copropriété] - Projet Perso
 
 Outil qui permet à un copropriétaire bénévole de gérer une copropriété de moins de 50 lots, sur un principe simple : l'agent prépare, le syndic valide et signe. Première brique livrée : calcul des appels de fonds au centime près selon les tantièmes de chaque lot, génération des avis en PDF, puis envoi automatisé après validation du syndic par mail.
 
 **Techniques utilisées :** modélisation de données (lots, tantièmes, clés de répartition), contrôles de cohérence, répartition au centime par la méthode du plus fort reste, API REST sécurisée, conteneurisation, workflow avec validation humaine
 **Outils :** Python, FastAPI, ReportLab, n8n, Docker Compose, YAML
-🔗 [Voir le projet](https://github.com/valrqr/kopro)
+🔗 [Voir le projet](https://github.com/valrqr/mitoyen)
 
 NB: en cours - échéancier automatique et relances des impayés à suivre
 
