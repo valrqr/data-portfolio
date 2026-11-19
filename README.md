@@ -18,6 +18,14 @@ Driven by this experience, I recently decided to follow a challenging training i
 
 Chaque projet présenté ici vise à mettre en avant mes compétences acquises en data suite à ma formation auprès de La Capsule mais également celles sur Excel à travers la présentation de certains projets menés dans le cadre de mes précédentes fonctions chez Intercruises et Aéroports de la Côte d'Azur.
 
+### 🌊 [SILLAGE – La flotte de porte-conteneurs CMA CGM vue par les données publiques européennes] - Projet Perso
+
+Que disent les données publiques sur la performance énergétique d'une flotte, navire par navire ? À partir du registre européen EU MRV (déclarations 2024 et 2025), le projet analyse les 197 porte-conteneurs gérés par le groupe CMA CGM et les compare à plus de 2 100 autres. Principaux constats : la flotte a ralenti de 1,2 nœud en un an (-2,6 % de carburant par mille) ; en comparant chaque navire à ses sister-ships, 4 navires consomment au moins 15 % de plus que leur série ; avec l'arrivée des navires au GNL, le méthane pèse désormais 5 % des émissions en équivalent CO₂ de la flotte.
+
+**Techniques utilisées :** nettoyage de fichiers réglementaires Excel, grandeurs dérivées (distance, vitesse moyenne), comparaison à des groupes de pairs (indice vs série), modélisation dbt avec tests, tableau de bord Power BI avec mesures DAX sur Microsoft Fabric (Lakehouse, Direct Lake)
+**Outils :** Python (pandas, pytest), Google BigQuery, dbt, Power BI / Microsoft Fabric
+🔗 [Voir le projet](https://github.com/valrqr/sillage)
+
 ### ✈️ [MAINTAIN – Les paliers en descente vers Nice Côte d'Azur] - Projet Perso
 
 Combien de carburant coûtent les paliers imposés pendant la descente vers Nice ? À partir de données ADS-B publiques collectées pendant 3 jours (OpenSky Network), le projet reconstruit 385 arrivées, détecte 427 paliers et estime le carburant et le CO₂ en jeu. Principaux constats : 63 % des paliers se font entre 3 000 et 4 500 ft, juste avant l'axe final ; ils concernent 1 arrivée sur 3 aux heures calmes, mais 3 sur 4 dès 4 arrivées par heure ; et 35 % des paliers concentrent 80 % du carburant en jeu.
