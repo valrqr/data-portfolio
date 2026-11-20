@@ -1,0 +1,21 @@
+MODULES VBA — STX_V1.4.xlsm
+==================================================
+
+STX.frm — 186 lignes, 7 procédures
+    - CB_CNX_Click
+    - CB_MOIS_Change
+    - CB_VAL_Click
+    - RANDOM_AVP
+    - RANDOM_GEH
+    - RANDOM_MZS
+    - RANDOM_AFR
+
+MAIN.bas — 235 lignes, 8 procédures
+    - MAIN_L
+    - RANDOM2_AVP
+    - RANDOM2_GEH
+    - RANDOM2_MZS
+    - RANDOM2_AFR
+    - MAIN_RANDO
+    - RAZ
+    - Test

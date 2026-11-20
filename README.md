@@ -83,6 +83,24 @@ Outil métier développé pour l'équipe des opérations aéroportuaires : saisi
 **Outils :** Microsoft Excel, VBA (UserForms), PowerPoint, olevba pour l'extraction du code
 🔗 [Voir le projet](https://github.com/valrqr/data-portfolio/tree/main/Excel_%26_VBA%20-%20Portfolio%20pro/Indicateurs)
 
+### 🔍 [STX.xlsm] - Planning mensuel des surveillances d'escales (ACA)
+
+Outil qui transforme l'export brut des vols du mois (Infopax) en planning de surveillances d'escales tirées au sort, pour vérifier que les assistants en escale respectent les règles d'exploitation de l'aéroport. Chaque assistant a sa semaine : l'outil tire 2 vols sur deux jours différents et prévoit 1 vol de secours, contrôle la validité du tirage, puis remplit automatiquement le modèle Word diffusé à l'équipe. La grille de contrôle utilisée sur le poste avion (une trentaine de points) est intégrée au classeur.
+
+**Techniques utilisées :** nettoyage et filtrage d'un export brut, échantillonnage aléatoire stratifié (par assistant et par semaine) avec contrôle des règles métier, plages nommées, export Word automatisé par signets
+**Outils :** Microsoft Excel, VBA (UserForm), Word, olevba pour l'extraction du code, LibreOffice pour les captures sur données fictives
+🔗 [Voir le projet](https://github.com/valrqr/data-portfolio/tree/main/Excel_%26_VBA%20-%20Portfolio%20pro/STX)
+
+### 🚗 [Permis pistes] - Examens et suivi des autorisations de conduite côté piste (ACA)
+
+Outils conçus pour encadrer la délivrance des « permis pistes » (autorisations de conduite sur l'aire de trafic) selon le règlement (UE) 2020/2148 : un générateur de QCM aléatoires par type de permis pour l'examen théorique, et des formulaires PDF remplissables pour tracer la formation (quatre visas formateur / examinateur) et noter l'examen pratique (critère éliminatoire au moindre point non satisfaisant).
+
+**Techniques utilisées :** traduction d'une exigence réglementaire en processus et en grilles standardisées, tirage aléatoire de questions, traçabilité pour l'audit
+**Outils :** Microsoft Excel, VBA, formulaires PDF
+🔗 [Voir le projet](https://github.com/valrqr/data-portfolio/tree/main/Excel_%26_VBA%20-%20Portfolio%20pro/Permis_pistes)
+
+NB: en cours - banque de questions et générateur de QCM à ajouter
+
 ---
 
 ## 🛠️ Stack technique
@@ -126,6 +144,18 @@ Outil métier développé pour l'équipe des opérations aéroportuaires : saisi
     │   └── _INDEX.txt
     └── docs/
         └── screenshots/
+  ├── STX/
+    ├── README.md
+    ├── src/
+    │   ├── forms/
+    │   ├── modules/
+    │   └── _INDEX.txt
+    └── docs/
+        └── screenshots/
+  ├── Permis_pistes/
+    ├── README.md
+    ├── modeles/
+    └── docs/
 └── README.md
 ```
 
