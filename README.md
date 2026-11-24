@@ -44,6 +44,17 @@ Outil qui permet à un copropriétaire bénévole de gérer une copropriété de
 
 NB: en cours - échéancier automatique et relances des impayés à suivre
 
+### 🛣️ [TARMAC – indicateurs-v3 : le compagnon de terrain des opérations côté piste] - Projet Perso
+
+Successeur moderne de l'outil [Indicateurs.xlsm](#-indicateursxlsm---outil-de-gestion-de-données-et-de-reporting-aca) (présenté plus bas). Là où la version Excel/VBA faisait saisir des totaux en fin de journée, Tarmac enregistre chaque événement côté piste au moment où il se produit (inspections, péril animalier, FOD, événements de sécurité, déversements, accompagnements, tractages, météo), depuis une tablette ou un téléphone. Les indicateurs journaliers, mensuels, saisonniers (saisons IATA) et annuels sont ensuite calculés automatiquement et restitués dans un tableau de bord Power BI. La grille d'indicateurs est générique (10 catégories, vocabulaire OACI / EASA) et les données sont 100 % synthétiques, pour un aéroport fictif.
+Vision à terme : comptes rendus réglementaires pré-remplis, photos, notifications aux services concernés, facturation des tractages avec signature sur tablette, main courante archivée chaque jour en PDF.
+
+**Techniques prévues :** modélisation au grain événement, historisation des corrections (aucune suppression), contrôles de saisie testés, génération de données synthétiques réalistes (saisonnalité, répartition horaire), séparation base transactionnelle / base analytique, calendrier des saisons IATA, modélisation dbt avec tests, mesures DAX (comparaison N-1 par saison IATA)
+**Outils prévus :** Python (pandas, pytest), Streamlit, SQLite, Google BigQuery, dbt, Power BI
+🔗 Dépôt dédié en cours de construction, publication prévue début décembre
+
+NB: en cours - dictionnaire des indicateurs et modèle de données livrés, générateur de données et formulaires de saisie à suivre
+
 ### 🏃 [Go Around – Un coach running piloté par mes propres données] - Projet Perso
 
 Alternative « maison » aux applications de coaching running par abonnement (type Runna) : construire puis ajuster chaque semaine un plan d'entraînement course à pied à partir de mes propres données de montre Garmin, avec un assistant IA comme coach. Le nom est un clin d'œil à l'aéronautique : le *go around* est la remise des gaz, quand l'avion interrompt son approche pour en refaire une meilleure.
@@ -93,6 +104,7 @@ Outil métier développé pour l'équipe des opérations aéroportuaires : saisi
 **Techniques utilisées :** contrôles de qualité des données à la saisie, Excel utilisé comme base de données (feuilles techniques masquées, plages nommées), automatisation des clôtures de période (archivage mensuel, remise à zéro), exports figés en .xlsx pour le reporting mensuel / saisonnier IATA / annuel, gestion des accès
 **Outils :** Microsoft Excel, VBA (UserForms), PowerPoint, olevba pour l'extraction du code
 🔗 [Voir le projet](https://github.com/valrqr/data-portfolio/tree/main/Excel_%26_VBA%20-%20Portfolio%20pro/Indicateurs)
+➡️ Successeur en cours de construction : **TARMAC (indicateurs-v3)**, présenté plus haut
 
 ### 🔍 [STX.xlsm] - Planning mensuel des surveillances d'escales (ACA)
 
@@ -140,6 +152,7 @@ NB: en cours - banque de questions et générateur de QCM à ajouter
 ├── Data - Portfolio perso
     ├── KoPro/  → dépôt dédié : github.com/valrqr/kopro
     ├── eco-flying-nice/  → dépôt dédié : github.com/valrqr/maintain-4000
+    ├── tarmac/  → dépôt dédié : github.com/valrqr/tarmac (publication à venir)
     ├── Projet Solo-1-trafic25/
         ├── README.md
         ├── notebook_exploration_et_nettoyage.ipynb
