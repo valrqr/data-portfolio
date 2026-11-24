@@ -66,15 +66,13 @@ Architecture prévue : montre Garmin → Garmin Connect → Intervals.icu (API) 
 
 NB: en cours - démarrage du projet, plan d'entraînement et connexion aux données à suivre
 
-### ✈️ [Analyse du trafic aérien et de la charge piste en Europe] - Projet Perso
+### ✈️ [Trafic aérien européen 2025 : fiabilité des données et journées perturbées] - Projet Perso
 
-Exploration et nettoyage d'un dataset des données trafic 2025 d'aéroports européens, avec construction de tables de dimension et gestion de la qualité des données (valeurs manquantes, doublons, cohérence des catégories).
+Deux sources comptent les mêmes vols dans 331 aéroports européens : sont-elles d'accord, et quand le trafic s'effondre, peut-on retrouver pourquoi ? À partir des données EUROCONTROL de 2025 (116 020 jours-aéroport), le projet rapproche les deux sources puis détecte les journées anormales. Principaux constats : la seconde source n'existe que pour 97 aéroports sur 331, mais concorde à moins de 5 % près dans 93 % des cas ; la détection retrouve seule la grève du contrôle aérien français des 3-4 juillet (-65 % de vols à Nice), la tempête Éowyn ou la panne électrique ibérique ; et une grève nationale se propage aux pays voisins, de façon modeste (-4 à -8 %). Projet repris d'une première version scolaire, dont il corrige une erreur de méthode (70 % des données supprimées à tort).
 
-**Techniques utilisées :** pandas, jointures, feature engineering, nettoyage de données catégorielles
-**Outils :** Google Colab, Google Sheets
-🔗 [Voir le projet](https://github.com/valrqr/data-portfolio/tree/Projet_solo_EU_Airports_Traffic25)
-
-NB: en cours - transformation des données à suivre
+**Techniques utilisées :** rapprochement de sources et contrôle qualité, détection d'anomalies par z-score avec référence saisonnière centrée, self-join, fonctions de fenêtre, table de référence d'événements sourcés, visualisation
+**Outils :** SQL (Google BigQuery), Python (pandas, matplotlib), Google Colab
+🔗 [Voir le projet](https://github.com/valrqr/data-portfolio/tree/main/Data%20-%20Portfolio%20perso/Airports_Traffic_25)
 
 ### [Etude des facteurs de réadmission chez la patientèle diabétique aux US 1999-2008] - Projet de fin de formation
 
