@@ -116,13 +116,11 @@ Outil qui transforme l'export brut des vols du mois (Infopax) en planning de sur
 
 ### 🚗 [Permis pistes] - Examens et suivi des autorisations de conduite côté piste (ACA)
 
-Outils conçus pour encadrer la délivrance des « permis pistes » (autorisations de conduite sur l'aire de trafic) selon le règlement (UE) 2020/2148 : un générateur de QCM aléatoires par type de permis pour l'examen théorique, et des formulaires PDF remplissables pour tracer la formation (quatre visas formateur / examinateur) et noter l'examen pratique (critère éliminatoire au moindre point non satisfaisant).
+Outils conçus pour encadrer la délivrance des « permis pistes » (autorisations de conduite sur l'aire de trafic) selon le règlement (UE) 2020/2148 : des formulaires PDF remplissables pour tracer la formation (quatre visas formateur / examinateur) et noter l'examen pratique (critère éliminatoire au moindre point non satisfaisant). J'avais également développé un générateur de QCM aléatoires par type de permis pour l'examen théorique (Excel / VBA) ; le classeur n'ayant pas pu être récupéré, il est uniquement décrit dans le dossier du projet.
 
 **Techniques utilisées :** traduction d'une exigence réglementaire en processus et en grilles standardisées, tirage aléatoire de questions, traçabilité pour l'audit
 **Outils :** Microsoft Excel, VBA, formulaires PDF
 🔗 [Voir le projet](https://github.com/valrqr/data-portfolio/tree/main/Excel_%26_VBA%20-%20Portfolio%20pro/Permis_pistes)
-
-NB: en cours - banque de questions et générateur de QCM à ajouter
 
 ---
 

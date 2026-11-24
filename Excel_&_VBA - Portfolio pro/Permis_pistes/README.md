@@ -5,7 +5,7 @@
 
 Pour conduire un véhicule sur les aires aéronautiques d'un aéroport, il faut une **autorisation de conduite délivrée par l'exploitant**, couramment appelée « permis piste ». Le **permis T** couvre l'aire de trafic, c'est-à-dire les zones de stationnement et de circulation autour des avions.
 
-Ce dossier regroupe les outils que j'ai conçus pour encadrer ce processus : une banque de questions avec un générateur de QCM pour l'examen théorique, et les modèles de documents qui assurent la traçabilité de la formation et de l'examen pratique.
+Ce dossier regroupe les outils que j'ai conçus pour encadrer ce processus : les modèles de documents qui assurent la traçabilité de la formation et de l'examen pratique, ainsi que la description du générateur de QCM utilisé pour l'examen théorique.
 
 ---
 
@@ -20,8 +20,10 @@ Les candidats viennent de nombreuses sociétés (assistants en escale, compagnie
 
 ## ⚙️ Ce que contient le dossier
 
-### 1. Banque de questions et générateur de QCM *(à ajouter)*
-Un classeur Excel & VBA qui contient la banque de questions des examens théoriques et génère un **QCM aléatoire selon le type de permis**. Il peut produire **deux QCM différents d'affilée**.
+### 1. Banque de questions et générateur de QCM *(descriptif uniquement)*
+Un classeur Excel & VBA qui contenait la banque de questions des examens théoriques et générait un **QCM aléatoire selon le type de permis**. Il pouvait produire **deux QCM différents d'affilée**.
+
+> Le classeur d'origine n'a pas pu être récupéré : cet outil est présenté ici sous forme de descriptif.
 
 ### 2. Attestation de formation — Permis T
 Le document qui suit le candidat tout au long du parcours :
