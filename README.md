@@ -44,6 +44,17 @@ Outil qui permet à un copropriétaire bénévole de gérer une copropriété de
 
 NB: en cours - échéancier automatique et relances des impayés à suivre
 
+### 🏃 [Go Around – Un coach running piloté par mes propres données] - Projet Perso
+
+Alternative « maison » aux applications de coaching running par abonnement (type Runna) : construire puis ajuster chaque semaine un plan d'entraînement course à pied à partir de mes propres données de montre Garmin, avec un assistant IA comme coach. Le nom est un clin d'œil à l'aéronautique : le *go around* est la remise des gaz, quand l'avion interrompt son approche pour en refaire une meilleure.
+Architecture prévue : montre Garmin → Garmin Connect → Intervals.icu (API) ⇄ serveur MCP écrit en Python, qui lit les sorties (allure, fréquence cardiaque, charge) et renvoie les séances planifiées jusqu'à la montre ; bilan hebdomadaire automatisé ; tableau de bord personnel de suivi.
+
+**Techniques prévues :** collecte via API REST avec clé personnelle, parsing de fichiers .FIT, indicateurs de charge d'entraînement, génération de séances structurées, automatisation hebdomadaire
+**Outils prévus :** Python (pandas), API Intervals.icu, MCP (Model Context Protocol), n8n, DuckDB, Streamlit
+🔗 Dépôt dédié à venir
+
+NB: en cours - démarrage du projet, plan d'entraînement et connexion aux données à suivre
+
 ### ✈️ [Analyse du trafic aérien et de la charge piste en Europe] - Projet Perso
 
 Exploration et nettoyage d'un dataset des données trafic 2025 d'aéroports européens, avec construction de tables de dimension et gestion de la qualité des données (valeurs manquantes, doublons, cohérence des catégories).
