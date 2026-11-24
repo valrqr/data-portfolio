@@ -1,0 +1,27 @@
+date;pays;nb_aeroports_touches;exemples_aeroports;categorie;evenement;source_url
+2025-07-03;France;12;Nice, Paris-CDG, Orly, Lyon, Marseille;Grève;Grève du contrôle aérien (UNSA-ICNA, USAC-CGT), jour 1;https://www.tourmag.com/Greve-controleurs-aeriens-3-juillet-2025-entre-25-et-50-des-vols-supprimes_a127745.html
+2025-07-04;France;17;Nice, Paris-CDG, Orly, Lyon, Marseille;Grève;Grève du contrôle aérien (UNSA-ICNA), jour 2;https://www.tourmag.com/Greve-des-controleurs-aeriens-du-4-juillet-jusqu-a-50-des-vols-annules-_a127767.html
+2025-01-24;United Kingdom;10;Aberdeen, Edinburgh, Glasgow, Belfast, Heathrow;Météo;Tempête Eowyn;https://www.theguardian.com/uk-news/2025/jan/24/storm-eowyn-danger-to-life-uk-ireland-winds-rain
+2025-03-10;Germany;8;Berlin, Frankfurt, Munich, Hamburg, Cologne-Bonn;Grève;Grève massive du personnel de sureté;https://www.tovima.com/world/germany-airport-strikes-affecting-over-500000-travelers-monday/
+2025-04-17;Norway;7;Trondheim, Stavanger, Alesund, Alta;Jour férié;;
+2025-04-18;Norway;14;Oslo, Bergen, Stavanger, Trondheim, Tromsø;Jour férié;;
+2025-04-28;Spain;5;Madrid, Sevilla, Málaga, Valencia;Infrastructure;Black-out électrique géant;https://www.independent.co.uk/travel/news-and-advice/spain-portugal-flight-cancellations-delays-power-outage-b2741410.html
+2025-11-18;Norway;6;Bergen, Stavanger, Hammerfest, Florø;Inconnu;;
+2025-01-01;Plusieurs;40;France, Norvège, UK, Allemagne;Jour férié;Jour de l'An;
+2025-12-24;Plusieurs;14;Norvège, Allemagne, France;Jour férié;Veille de Noël;
+2025-12-25;Plusieurs;144;Espagne, UK, Norvège, France, Italie, Allemagne;Jour férié;Noël;
+2025-12-26;Plusieurs;60;Allemagne, UK, Norvège, Italie, Espagne;Jour férié;Saint-Étienne / Boxing Day;
+2025/1/24;Irlande;;;Météo;Tempête Éowyn;
+2025-04-28;Portugal;;;Infrastructure;Même panne électrique que l'Espagne;
+2025-07-03;Royaume-Uni;;;Grève;🔥 La grève française qui se propage : beaucoup de vols britanniques traversent l'espace aérien français;
+2025-08-15;Espagne;;;Jour férié;Jour férié (Assomption);
+15/08/2025;Italie;;;Jour férié;Jour férié (Assomption);
+2025/5/1;Espagne;;;Jour férié;Jour férié;
+2025-12-27;Plusieurs;;;Jour férié;Période des fêtes;
+2025-12-28;Plusieurs;;;Jour férié;Période des fêtes;
+2025-12-29;Plusieurs;;;Jour férié;Période des fêtes;
+2025-12-30;Plusieurs;;;Jour férié;Période des fêtes;
+2025-12-31;Plusieurs;;;Jour férié;Période des fêtes;
+2025-02-13;Belgique;;;Grève;Grève;https://bx1.be/categories/news/manifestation-nationale-le-hall-des-departs-de-brussels-airport-completement-vide/
+2025-3-1;Belgique;;;Inconnu;;
+2025-11-26;Belgique;;;Grève;Grève;https://retardvol.fr/greve-generale-en-belgique
