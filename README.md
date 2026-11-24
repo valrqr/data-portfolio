@@ -146,13 +146,16 @@ Outils conçus pour encadrer la délivrance des « permis pistes » (autorisatio
     ├── README.md
     └── ...
 ├── Data - Portfolio perso
-    ├── KoPro/  → dépôt dédié : github.com/valrqr/kopro
+    ├── KoPro/ (Mitoyen)  → dépôt dédié : github.com/valrqr/mitoyen
     ├── eco-flying-nice/  → dépôt dédié : github.com/valrqr/maintain-4000
     ├── tarmac/  → dépôt dédié : github.com/valrqr/tarmac (publication à venir)
-    ├── Projet Solo-1-trafic25/
+    ├── Airports_Traffic_25/
         ├── README.md
-        ├── notebook_exploration_et_nettoyage.ipynb
-        └── data/
+        ├── Analyse_v2.ipynb
+        ├── Exploration_Nettoyage_des_données_raw_traffic25.ipynb  (v1)
+        ├── sql/  (01_staging → 06_portee_perturbations)
+        ├── data/
+        └── figures/
     ├── ...
         └── ...
 ├── Excel_&_VBA - Portfolio pro
